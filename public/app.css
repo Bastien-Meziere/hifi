@@ -1,0 +1,81 @@
+/* Titre et footer présent sur toutes les pages */
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #3F3047;
+    margin-bottom: 100px;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #FF784F;
+}
+/* Lien sur la page d'accueil */
+.lien-accueil, a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #2CA58D;
+}
+/* Main du catalogue des produits */
+.produit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/* Main des produits en fonction du fabricant */
+.produitFab {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/* Main des produits par catégorie */
+.produitCat {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/* Bouton "Filtrer" */
+.bouton-categorie {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: 2px solid #3F3047;
+    border-radius: 5px;
+    background-color: #2CA58D;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Main de l'ajout d'un produit */
+.ajoutProduit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/* Bouton "Ajouter le produit" */
+.bouton-ajout {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: 2px solid #3F3047;
+    border-radius: 5px;
+    background-color: #2CA58D;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Marge entre les input, textarea et select du formulaire pour ajouter un produit */
+.f-ajout, input, textarea, select {
+    margin-bottom: 15px;
+}
+/* Ajustement label du textarea */
+.l-textarea {
+    vertical-align: top;
+}
+/* Texte "Produit ajouté avec succès !" */
+.alert-success {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #60d394;
+    font-size: 1.2em;
+}
